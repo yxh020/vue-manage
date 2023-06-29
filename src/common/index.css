@@ -1,0 +1,27 @@
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.f-j-c{
+	display: flex;
+	justify-content: center;
+}
+.f-a-c{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.f-j-b{
+	display: flex;
+	justify-content: space-between;
+}
+
+@keyframes fadeIn {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
